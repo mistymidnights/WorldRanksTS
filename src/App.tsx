@@ -2,6 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Logo from '/Logo.svg';
 import Search from '/Search.svg';
+import { FaGithub } from 'react-icons/fa';
 
 function App() {
   const [countries, setCountries] = useState<any[]>([]);
@@ -97,6 +98,16 @@ function App() {
         <img src='./hero-image-wr.jpg' alt='' />
         <div className='content'>
           <img src={Logo} alt='React Logo' />
+          <div className='copy'>
+            <a
+              href='https://github.com/mistymidnights/WorldRanksTS'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaGithub />
+            </a>
+            Cristina Lopez
+          </div>
         </div>
       </div>
 

@@ -1,0 +1,17 @@
+* {
+  --background-color: #1b1d1f;
+  --card-color: #282b30;
+  --accent: #4e80ee;
+  --ligth-gray: #6c727f;
+  --white: #d2d5da;
+}
+
+:root {
+  color: var(--white);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

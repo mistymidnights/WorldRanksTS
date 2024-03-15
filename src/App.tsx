@@ -175,6 +175,13 @@ function App() {
                       <div className='left-section mb-2'>Region</div>
                       <ul className='list-region'>
                         <li
+                          className={activeRegion === 'all' ? 'active' : ''}
+                          onClick={() => fetchData(urlBase, 'all')}
+                        >
+                          {' '}
+                          All Regions
+                        </li>
+                        <li
                           className={
                             activeRegion === 'region/americas' ? 'active' : ''
                           }
